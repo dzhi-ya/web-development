@@ -2,7 +2,7 @@
 
 ### GraphQL
 
-[Видео-обзор №1](https://drive.google.com/file/d/1_lqWUjDcyGsEai9cFUb0lu6YfWpdiELl/view?usp=sharing)
+[Видео-обзор №1](https://drive.google.com/file/d/1_lqWUjDcyGsEai9cFUb0lu6YfWpdiELl/view?usp=sharing)<br>
 [Видео-обзор №2](https://drive.google.com/file/d/12kuLIMwby-EufkWg6ANqqt4LSw-JOU9Y/view?usp=sharing)
 
 > Задание на 3 и 4
