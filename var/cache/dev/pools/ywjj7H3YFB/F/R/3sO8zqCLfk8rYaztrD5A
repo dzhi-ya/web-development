@@ -1,0 +1,3 @@
+<?php //App%255CApi%255CProduct%255CDto%255CProductCreateRequestDto
+
+return [PHP_INT_MAX, []];

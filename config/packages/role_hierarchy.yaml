@@ -1,0 +1,13 @@
+security:
+  role_hierarchy:
+    !php/const App\Core\Product\Enum\Role::DEVELOPER:
+      - !php/const App\Core\Product\Enum\Role::MANAGER
+      - !php/const App\Core\Product\Enum\Permission::PRODUCT_CREATE
+      - !php/const App\Core\Product\Enum\Permission::PRODUCT_DELETE
+    !php/const App\Core\Product\Enum\Role::MANAGER:
+      - !php/const App\Core\Product\Enum\Role::USER
+      - !php/const App\Core\Product\Enum\Permission::PRODUCT_UPDATE
+      - !php/const App\Core\Product\Enum\Permission::PRODUCT_VALIDATION
+      - !php/const App\Core\Product\Enum\Permission::PRODUCT_INDEX
+    !php/const App\Core\Product\Enum\Role::USER:
+      - !php/const App\Core\Product\Enum\Permission::PRODUCT_SHOW
